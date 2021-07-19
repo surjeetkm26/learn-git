@@ -2,9 +2,11 @@ package streamapi;
 
 public class Test {
 
+	public void method1() {
+		System.out.println("Method1");
+	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		new Test().method1();
 	}
 
 }
